@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>layout</title>
+        <style>
+            header {
+            background-color: #b456aa;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            }
+            nav {
+            float: left;
+            width: 20%;
+            height:max-content;
+            background-color: #fb9ef1;
+            padding: 20px;
+            }
+            nav ul {
+            list-style-type: none;
+            padding: 0;
+            }
+            article {
+            float: right;
+            padding: 20px;
+            width: 70%;
+            background-color: #f0a4ce;
+            height: 300px; 
+            }
+            section::after {
+            content:"";
+            
+            display: table;
+            clear: both;
+            }
+            footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            }
+            @media (max-width: 600px) {
+            nav, article {
+            width: 100%;
+            height: auto;
+            }
+            }
+        </style>
+    </head>
+    <body style="background-color: #f0a4ce;">
+        <header>
+            <h1>SIMPLE SKINCARE ROUTINE</h1>
+        </header>
+        
+        <section>
+            <nav>
+              <ul>
+                <li><a href="#c">CLEANSER</a></li><br>
+                <li><a href="#m">MOISTURIZER</a></li><br>
+                <li><a href="#s">SUNSCREEN</a></li>
+              </ul>
+            </nav>
+        <article>
+            <h1>CLEANSER</h1>
+            <p id="c"><div>Facial cleanser is a skincare product used to remove make-up, dead skin cells, oil, dirt, 
+                and other types of pollutants from the skin, helping to keep pores clear and prevent skin conditions such as acne.
+                
+                Finding the best cleanser can be tough given there are so many options.
+                 Knowing the differences between them will help you choose the best products for your skin.
+                </div> 
+                <br>
+               <div><u>* Gel cleansers</u> are clear with a gel-like consistency. Many have deep-cleaning and exfoliating properties—ideal for 
+                oily, acne-prone skin.
+                 </div>
+                <br>
+               <div><u>* Cream cleansers</u> are usually thicker and can be moisturizing, cleansing without stripping skin of its natural 
+                oils—ideal for dry or sensitive skin.</div>
+                <br>
+               <div><u>* Foam cleansers</u> are lightweight solutions creating a foamy lather when dispensed from a pump package.
+                Foam cleansers are pleasant to use and remove excess oil as effectively as gel cleansers—ideal for combination skin.</div>
+                </p>
+                
+        </article>
+    
+        <article >
+            <h1>MOISTURIZER</h1>
+            <p id="m"><div>Healthy skin appearance is essential as flawed presentation may result in reduced self-esteem.
+                Moisturizers are commonly used to reduce fine lines, smoothen and hydrate skin which may improve a patient’s 
+                social life, psychological satisfaction and quality of life. </div>
+           <br>
+     <div>Moreover, either normal skin or dermatoses with dry skin symptoms may both gain optimal benefit from proper
+        utilization of moisturizers. Impression of skin dryness consist of visible and tactile changes of the skin as well as
+        alteration in skin’s sensory components, which presents as dry skin symptoms. These symptoms include dryness 
+        feeling and discomforts; consist of tightness, pain, itch, stinging, and tingling.</div>
+           <br>
+    <div>Moisturizers work effectively to overcome dry skin underlying dermatoses, 
+        interrupting dry skin cycle while maintaining skin smoothness</div></p>
+        </article>
+        <article >
+            <h1>SUNSCREEN</h1>
+            <p id="s"><div>Decrease your risk of skin cancers and skin precancers. Studies show that regular daily use of SPF 15 sunscreen,
+                when used as directed, can reduce your risk of developing squamous cell carcinoma (SCC) by about 40 percent, 
+                and lower your melanoma risk by 50 percent.</div>
+                 <br>
+               <div>Help prevent premature skin aging caused by the sun, including wrinkles, sagging and age spots.</div> 
+               <br>
+                <div>Keep in mind that while crucial, sunscreen alone is not enough.
+                    Seek the shade whenever possible, wear sun-safe clothing, a wide-brimmed hat and UV-blocking sunglasses,
+                    for a complete sun safety strategy.</div>
+                    <br>
+             <div>To help you select sun-safe products, look for the Skin Cancer Foundation’s Seal of Recommendation and browse our
+                recommended sunscreen products.</div></p>
+        </article>
+    </body>
+    </html>
